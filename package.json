@@ -1,0 +1,38 @@
+{
+	"name": "@pipobscure/auth",
+	"version": "0.0.0",
+	"description": "Authentication Server Library",
+	"keywords": [
+		"Authentication"
+	],
+	"homepage": "https://github.com/pipobscure/auth#readme",
+	"bugs": {
+		"url": "https://github.com/pipobscure/auth/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pipobscure/auth.git"
+	},
+	"license": "ISC",
+	"author": "Philipp Dunkel <pip@pipobscure.com>",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "node --test 'src/*.test.ts'",
+		"format": "biome check --write",
+		"build": "tsc --build --verbose",
+		"postversion": "git push --follow-tags"
+	},
+	"devDependencies": {
+		"@pipobscure/biome": "^1.1.2",
+		"@types/ajv": "^0.0.5",
+		"@types/node": "^24.9.1",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@pipobscure/jwt": "^0.1.4",
+		"@pipobscure/store": "^0.1.2",
+		"ajv": "^8.17.1",
+		"cbor": "^10.0.11"
+	}
+}
