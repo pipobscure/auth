@@ -2,6 +2,12 @@
 	"name": "@pipobscure/auth",
 	"version": "0.1.0",
 	"description": "Authentication Server Library",
+	"files": [
+		"!./dist/*.test.js",
+		"!./dist/*.test.d.ts",
+		"./dist/*.js",
+		"./dist/*.d.ts"
+	],
 	"keywords": [
 		"Authentication"
 	],
@@ -21,6 +27,7 @@
 		"test": "node --test 'src/*.test.ts'",
 		"format": "biome check --write",
 		"build": "tsc --build --verbose",
+		"prepublishOnly": "npm run build",
 		"postversion": "git push --follow-tags"
 	},
 	"devDependencies": {
