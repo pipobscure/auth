@@ -1,6 +1,6 @@
 {
 	"name": "@pipobscure/auth",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Authentication Server Library",
 	"files": [
 		"!./dist/*.test.js",
