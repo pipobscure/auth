@@ -188,5 +188,4 @@ npm run format  # Auto-format code
 
 ## 🧾 License
 
-[ISC License](https://opensource.org/licenses/ISC)  
-© [Philipp Dunkel](https://github.com/pipobscure)
+© [Philipp Dunkel](https://github.com/pipobscure) [EUPL v1.2](https://eupl.eu/1.2/en)

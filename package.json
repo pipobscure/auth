@@ -19,7 +19,7 @@
 		"type": "git",
 		"url": "git+https://github.com/pipobscure/auth.git"
 	},
-	"license": "ISC",
+	"license": "EUPL-1.2",
 	"author": "Philipp Dunkel <pip@pipobscure.com>",
 	"type": "module",
 	"main": "index.js",
